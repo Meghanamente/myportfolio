@@ -91,7 +91,7 @@ export function Navbar() {
           {/* CTA + mobile */}
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <a
-              href="mailto:meghana.mente@email.com"
+              href="mailto:meghana.mente@gmail.com"
               className="hidden md:inline-flex"
               style={{
                 padding: "8px 18px", borderRadius: 10,
