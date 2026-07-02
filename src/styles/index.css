@@ -1,0 +1,25 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { cursor: none !important; }
+@media (pointer: coarse) { * { cursor: auto !important; } }
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #05050f; }
+::-webkit-scrollbar-thumb { background: #7c3aed; border-radius: 99px; }
+
+::selection { background: rgba(124,58,237,0.25); color: #e9d5ff; }
+
+input::placeholder,
+textarea::placeholder { color: #1e2535; }
+
+input, textarea { background-color: transparent; }
+
+button { cursor: none !important; }
